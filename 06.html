@@ -1,0 +1,29 @@
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <script>
+        const numbers = [3, 14, 12, 15, 20, 19, 1, 4, 14, 17];
+        let string = numbers.toString();
+
+        string = string.replace(/1/g, 'a');
+        string = string.replace(/3/g, 'c');
+        string = string.replace(/4/g, 'd');
+        string = string.replace(/12/g, 'm');
+        string = string.replace(/14/g, 'o');
+        string = string.replace(/15/g, 'p');
+        string = string.replace(/17/g, 'r');
+        string = string.replace(/19/g, 't');
+        string = string.replace(/20/g, 'u');
+
+        document.write(string);
+
+    </script>
+</body>
+
+</html>
